@@ -9,7 +9,7 @@ import java.security.Principal;
 @RestController
 public class SecondController {
 
-    @GetMapping("/second")
+    @GetMapping("/user")
     public Mono<String> greet(Mono<Principal> principal) {
         return principal
                 .map(Principal::getName)

@@ -24,7 +24,7 @@ public class WebSecurityConfig {
                 .formLogin().and()
                 .httpBasic().disable()
                 .authorizeExchange()
-                .pathMatchers("/", "/login", "/second", "/favicon.ico").permitAll()
+                .pathMatchers("/", "/login", "/user", "/favicon.ico").permitAll()
                 .pathMatchers("/controller", "/admin").hasRole("ADMIN")
                 .anyExchange().authenticated()
                 .and()
