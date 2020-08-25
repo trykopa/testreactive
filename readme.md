@@ -13,8 +13,7 @@ Used technologies:
 - Spring Boot Security
 
 
-/Add SecondController with User and Admin mapping
-
-/Add JWT token authorization
+***Add SecondController with User and Admin mapping***
+***Add JWT token authorization***
 
 Idea by [***letsCode© YouTube channel***](https://www.youtube.com/channel/UC1g3kT0ZcSXt4_ZyJOshKJQ)
